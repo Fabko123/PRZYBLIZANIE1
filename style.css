@@ -1,0 +1,102 @@
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50% 50% 50%;
+    grid-row: 0;
+    margin-left:8%;
+    padding: 15px;
+}
+
+.obrazek{
+    width: 300px;
+    height: 210px;
+}
+@keyframes zoom {
+    from{
+width: 300px;
+height: 210px;
+    }
+    to{
+transform: scale(0.5);
+    }
+}
+.obrazek:hover{
+    animation-name: zoom;
+    animation-duration: 1500ms;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.color{
+    background-color:rgb(190, 187, 187);
+}
+.zmiana{
+    margin-left: 36.8%;
+    position: absolute;
+}
+.borderblue3{
+    border: 1px solid #007bff;
+    width: 100px;
+    margin-left: 0px;
+}
+
+.Kontakty {
+    margin-left: 46.7%;
+}
+
+
+.inputkontakt1{
+    border: 3px solid rgb(160, 158, 158);
+    min-height: 3vh;
+    width: 250px;
+    margin-left: 25%;
+}
+
+.input {
+    width: 10%;
+    display: flex;
+    margin-left: 36%;
+    
+}
+
+.text1{
+    position: absolute;
+    color: rgb(173, 167, 167);
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+.text2{
+    position: absolute;
+    color: rgb(173, 167, 167);
+    margin-left: 18%;
+    margin-top: 5px;
+}
+.text3{
+    position: absolute;
+    color: rgb(173, 167, 167);
+    margin-left: 48%;
+}
+
+#text4{
+    width: 550px;
+    margin-left: 38%;
+}
+
+.inputwidth{
+    width: 200px;
+}
+
+.btn2 {
+    margin-left: 46%;
+    background-color: white;
+    height: 40px;
+    width: 180px;
+   border: 2px solid #007bff;
+   font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: blanchedalmond;
+}
